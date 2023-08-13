@@ -1,0 +1,10 @@
+[Unit]
+Description=ROT13 demo service
+
+[Service]
+User=user
+WorkingDirectory=/home/user
+ExecStart=/home/user/kernel_logs.sh
+
+[Install]
+WantedBy=multi-user.target 
